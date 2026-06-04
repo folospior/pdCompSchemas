@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/folospior/pdCompSchema",
+  "title": "pdComp Citations Schema",
+  "description": "The schema for the citations.json file, which is used to define citations",
+  "type": "object",
+  "properties": {
+    "citations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "code": { "type": "string" },
+          "description": { "type": "string" },
+          "fine": { "type": "integer" },
+          "category": { "type": "string" },
+          "statute": { "type": "string" },
+          "points": { "type": "integer" },
+          "correctable": { "type": "boolean" },
+          "enforcementType": {
+            "type": "string",
+            "pattern": "Traffic|Parking|Fix-It|Criminal Cite|Municipal|Fish and Game"
+          },
+          "appearanceRequired": { "type": "boolean" },
+          "notes": { "type": "string" }
+        },
+        "required": ["code", "description"]
+      }
+    }
+  }
+}

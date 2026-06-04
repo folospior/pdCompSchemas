@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/folospior/pdCompSchema",
+  "title": "pdComp Court Personnel Schema",
+  "description": "The schema for the court_personnel.json file, which is used to define court personnel",
+  "type": "object",
+  "properties": {
+    "judges": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "style": { "type": "string" },
+          "department": { "type": "string" },
+          "convictionBias": { "type": "integer" },
+          "pleaBias": { "type": "integer" },
+          "dismissalBias": { "type": "integer" },
+          "acquittalBias": { "type": "integer" },
+          "sentenceMultiplier": { "type": "number" }
+        },
+        "uniqueItems": true
+      }
+    },
+    "prosecutors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "style": { "type": "string" },
+          "convictionBias": { "type": "integer" },
+          "pleaBias": { "type": "integer" },
+          "dismissalBias": { "type": "integer" },
+          "acquittalBias": { "type": "integer" },
+          "sentenceMultiplier": { "type": "number" }
+        },
+        "uniqueItems": true
+      }
+    },
+    "defenseCounsel": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "style": { "type": "string" },
+          "convictionBias": { "type": "integer" },
+          "pleaBias": { "type": "integer" },
+          "dismissalBias": { "type": "integer" },
+          "acquittalBias": { "type": "integer" },
+          "sentenceMultiplier": { "type": "number" }
+        },
+        "uniqueItems": true
+      }
+    }
+  }
+}
