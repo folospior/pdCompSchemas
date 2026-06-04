@@ -1,5 +1,7 @@
 # pdCompSchemas
 
+![GitHub License](https://img.shields.io/github/license/folospior/pdCompSchemas)
+
 Schemas for pdComp charges, citations, and court personnel.
 
 This gives you nice completions in your editor, as well as some validation for enums.
