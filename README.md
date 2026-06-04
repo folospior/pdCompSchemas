@@ -8,7 +8,7 @@ Makes for a much comfier editing experience.
 
 # How to use:
 
-In your `.json` files, specify the schema by the raw link provided by github:
+In your `.json` files, specify the schema by the raw link provided by GitHub:
 
 - `charges.json`:
 
