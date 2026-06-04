@@ -1,5 +1,4 @@
 # pdCompSchemas
-
 ![GitHub License](https://img.shields.io/github/license/folospior/pdCompSchemas)
 
 Schemas for pdComp charges, citations, and court personnel.
