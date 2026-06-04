@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/folospior/pdCompSchema",
+  "$id": "https://raw.githubusercontent.com/folospior/pdCompSchemas/refs/heads/main/court_personnel.schema.json",
   "title": "pdComp Court Personnel Schema",
   "description": "The schema for the court_personnel.json file, which is used to define court personnel",
   "type": "object",

@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/folospior/pdCompSchema",
+  "$id": "https://raw.githubusercontent.com/folospior/pdCompSchemas/refs/heads/main/citations.schema.json",
   "title": "pdComp Citations Schema",
   "description": "The schema for the citations.json file, which is used to define citations",
   "type": "object",
