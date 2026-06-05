@@ -29,6 +29,7 @@
           "statute": { "type": "string" },
           "notes": { "type": "string" },
           "courtNotes": { "type": "string" },
+          "wobbler": { "type": "boolean" },
           "seriousFelony": { "type": "boolean" },
           "violentFelony": { "type": "boolean" },
           "modifiers": {
